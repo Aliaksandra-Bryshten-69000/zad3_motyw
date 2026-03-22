@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4f4;
+    margin: 0;
+    padding: 24px;
+    color: #2c2c2c;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    background-color: #ffe3e3;
+    border: 2px solid #c62828;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #b71c1c;
+    font-size: 34px;
+}
+
+.role {
+    font-weight: bold;
+    color: #7f1d1d;
+    margin-bottom: 14px;
+}
+
+.summary {
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #c62828;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.meta {
+    min-width: 280px;
+    background-color: #fff0f0;
+    border: 2px dashed #c62828;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+main {
+    margin-top: 22px;
+}
+
+section {
+    background-color: #fffafa;
+    border: 2px solid #ef9a9a;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #b71c1c;
+    font-size: 24px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #7f1d1d;
+    margin-bottom: 6px;
+}
+
+.date,
+.where {
+    margin: 6px 0;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.chips {
+    margin-top: 12px;
+}
+
+.chip {
+    display: inline-block;
+    background-color: #c62828;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 999px;
+    margin: 5px 6px 0 0;
+    font-size: 14px;
+}
+
+a {
+    color: #b71c1c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 24px;
+    color: #b71c1c;
+    font-weight: bold;
+}
