@@ -1,0 +1,132 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f2fff5;
+    margin: 0;
+    padding: 32px;
+    color: #1f2d1f;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to right, #d8f5df, #eefcf1);
+    border-left: 8px solid #2e8b57;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.name {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1f6f43;
+    font-size: 36px;
+}
+
+.role {
+    font-style: italic;
+    font-size: 17px;
+    color: #2e8b57;
+    margin-bottom: 16px;
+}
+
+.summary {
+    line-height: 1.8;
+    max-width: 760px;
+    margin: 0 auto 16px auto;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+.meta {
+    margin-top: 22px;
+    background-color: #ffffff;
+    border-left: 6px solid #2e8b57;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+}
+
+main {
+    margin-top: 26px;
+}
+
+section {
+    background-color: #ffffff;
+    border-left: 6px solid #66bb6a;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(46, 139, 87, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #1f6f43;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 19px;
+    color: #236b45;
+    margin-bottom: 6px;
+}
+
+.date,
+.where {
+    margin: 6px 0;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 9px;
+}
+
+.chips {
+    margin-top: 14px;
+}
+
+.chip {
+    display: inline-block;
+    background-color: #e4f7e8;
+    color: #1f6f43;
+    border: 1px solid #66bb6a;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 6px 6px 0 0;
+    font-weight: bold;
+}
+
+a {
+    color: #1f6f43;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 28px;
+    color: #2e8b57;
+    font-size: 15px;
+}
