@@ -3,12 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV – Aliaksandra Bryshten 69000</title>
-    <link rel="stylesheet" href="red.css">
+
+    <link id="theme" rel="stylesheet" href="red.css">
 </head>
 
 <body>
+    <button onclick="changeTheme()" style="margin-bottom: 20px; padding: 10px 15px; cursor: pointer;">
+        Zmień motyw
+    </button>
 
     <div class="wrap">
 
@@ -55,35 +59,22 @@
         <main>
 
             <section>
-
                 <h2>Wykształcenie</h2>
 
                 <div class="item">
-
-                    <p class="title">
-                        Studia I stopnia – Informatyka
-                    </p>
-
-                    <p class="date">
-                        2024 – obecnie
-                    </p>
-
-                    <p class="where">
-                        Vistula University • Polska
-                    </p>
+                    <p class="title">Studia I stopnia – Informatyka</p>
+                    <p class="date">2024 – obecnie</p>
+                    <p class="where">Vistula University • Polska</p>
 
                     <ul>
                         <li>Podstawy programowania.</li>
                         <li>Praca zespołowa i dokumentacja projektowa.</li>
                         <li>Tworzenie prostych stron HTML i CSS.</li>
                     </ul>
-
                 </div>
-
             </section>
 
             <section>
-
                 <h2>Umiejętności</h2>
 
                 <div class="chips">
@@ -95,61 +86,46 @@
                     <span class="chip">Komunikacja</span>
                     <span class="chip">Praca zespołowa</span>
                 </div>
-
             </section>
 
             <section>
-
                 <h2>Projekty</h2>
 
                 <div class="item">
-
-                    <p class="title">
-                        CV jako strona WWW
-                    </p>
-
-                    <p class="date">
-                        2026
-                    </p>
+                    <p class="title">CV jako strona WWW</p>
+                    <p class="date">2026</p>
 
                     <ul>
                         <li>Stworzenie strony CV w HTML.</li>
                         <li>Dodanie dwóch motywów CSS: czerwonego i zielonego.</li>
-                        <li>Publikacja projektu na GitHub:
+                        <li>
+                            GitHub:
                             <a href="https://github.com/Aliaksandra-Bryshten-69000/zad3_motyw" target="_blank">
                                 github.com/Aliaksandra-Bryshten-69000/zad3_motyw
                             </a>
                         </li>
                     </ul>
-
                 </div>
-
             </section>
 
             <section>
-
                 <h2>Języki</h2>
-
                 <ul>
                     <li>Polski — B2/C1</li>
                     <li>Angielski — B1/B2</li>
                     <li>Rosyjski — C2</li>
                     <li>Białoruski — C2</li>
                 </ul>
-
             </section>
 
             <section>
-
                 <h2>Zainteresowania</h2>
-
                 <ul>
                     <li>Agile i zarządzanie projektami</li>
                     <li>Technologie webowe</li>
                     <li>Rozwój osobisty</li>
                     <li>Sport i siłownia</li>
                 </ul>
-
             </section>
 
         </main>
@@ -159,6 +135,18 @@
         </footer>
 
     </div>
+
+    <script>
+        function changeTheme() {
+            let theme = document.getElementById("theme");
+
+            if (theme.getAttribute("href") === "red.css") {
+                theme.setAttribute("href", "green.css");
+            } else {
+                theme.setAttribute("href", "red.css");
+            }
+        }
+    </script>
 
 </body>
 </html>
